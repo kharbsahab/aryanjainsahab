@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("best-netflix-shows-1657830779.jpg");
+    height: 90vh;
+    position: relative;
+    background-position: center center;
+    background-size: cover; /* Corrected */
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.class {
+    height: 91%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    position: relative;
+    gap: 12px;
+    padding: 0 30px;
+}
+
+.class :first-child {
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+}
+
+.class :nth-child(2) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.class :nth-child(3) {
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+}
+
+.hero {
+    height: 8px;
+    padding: 0 25px;
+    text-align: center;
+}
+
+.hero button {
+    height: 30px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: darkgray;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 2px 24px;
+    font-size: 40px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+
+.hero input {
+    background-color: rgba(255, 255, 255, 0.842);
+}
+
+.tv {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 70vw;
+    width: 30vw;
+}
+
+.first {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 119px;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.tv video {
+    position: relative;
+    bottom: 8px;
+    right: 568px;
+}
+
+.separation {
+    width: 1400px;
+}
+
+.tv2 video {
+    position: relative;
+    bottom: 193px;
+    right: 602px;
+    margin: auto;
+    max-width: 70vw;
+    width: 30vw;
+}
+
+@media screen and (max-width: 768px) {
+    video {
+        flex-wrap: wrap;
+    }
+}
+
+.faq {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.boxs {
+    display: flex;
+    color: white;
+    background-color: grey;
+    padding: 22px;
+    max-width: 48vw;
+    margin: 15px auto;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.boxs:hover {
+    background-color: rgba(197, 85, 85, 0.788);
+    transition: all 1s ease-in-out;
+}
+
+.boxs img {
+    color: black;
+    background-color: white;
+    padding: 2px;
+    justify-content: space-between;
+}
+
+.boxs li {
+    list-style: none;
+    list-style-position: inherit;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 17px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.footeritem {
+    display: flex;
+    flex-direction: column;
+    color: rgb(179, 134, 134);
+}
+
+.footer a {
+    color: white;
+    padding: 3px;
+}
